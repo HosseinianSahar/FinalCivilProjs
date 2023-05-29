@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Construction Projects Website</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 50px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    input[type="password"] {
+      margin-bottom: 20px;
+    }
+    button {
+      width: 100%;
+    }
+    #error-msg {
+      color: red;
+      margin-bottom: 20px;
+    }
+  </style>
+  	<style>
+		body {
+			background-image: url('file:/mywebsitekhordad1402/hafez2.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: top;
+		}
+	</style>
+
+</head>
+<body>
+		<div style="text-align: right; background-color: rgb(51, 204, 255);">
+		<p style="background-color: rgb(29, 174, 237);"><big
+		style="color: rgb(249, 249, 249);"><big><a
+		href="https://omrani.shiraz.ir/"><span style="font-family: B Mitra;color: rgb(0, 0, 255);"> ورود به سایت معاونت فنی و عمرانی شهرداری شیراز</span></a></big></big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<!--<img style="width: 291px; height: 74px;" alt=""-->
+		<!--src="CivilProjstitle.jpg" align="middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+		<img style="width: 311px; height: 66px;" alt="" src="arm3.jpg"
+		align="middle" hspace="10" vspace="10"> &nbsp; &nbsp;&nbsp; </p>
+		</div>
+
+  <div class="container">
+    <h1><span style="font-family: B Mitra;color: rgb(255, 255, 255);">سامانه پروژه های در حال اجرای معاونت فنی و عمرانی شهرداری شیراز</h1>
+	
+    <form id="login-form">
+      <div class="form-group">
+        <label for="username"><span style="font-family: B Mitra;color: rgb(255, 255, 255);">:نام کاربر</label>
+        <input type="text" class="form-control" name="username" id="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password"><span style="font-family: B Mitra;color: rgb(255, 255,255);">:کلمه عبور</label>
+        <input type="password" class="form-control" name="password" id="password" required>
+      </div>
+      <div id="error-msg"></div>
+      <button type="submit" class="btn btn-primary"><span style="font-family: B Mitra;color: rgb(255, 255, 255);">ورود به سامانه</button>
+    </form>
+	<h4><span style="font-family: B Mitra;color: rgb(255, 255, 255);">تهیه کننده: سحر حسینیان</h4>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <script>
+    // Login form submit event handler
+    document.getElementById('login-form').addEventListener('submit', function(e) {
+      e.preventDefault(); // prevent the form from submitting
+
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+
+      // Validate username and password
+      if (username === 'admin' && password === 'ho') {
+        // Show the website content         window.location.href = 'https://example.com/projects';
+		 window.location.href = 'file:/mywebsitekhordad1402/index.html';
+		// src="file:/qgis2web_2023_05_06-01_30_39_261959/arm3.jpg"</h5>
+      } else {
+        // Show error message
+        document.getElementById('error-msg').textContent = '.نام کاربری یا کلمه رمز اشتباه است';
+      }
+    });
+  </script>
+</body>
+</html>
