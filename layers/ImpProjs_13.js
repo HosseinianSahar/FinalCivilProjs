@@ -17,7 +17,7 @@ var json_ImpProjs_13 = {
 { "type": "Feature", "properties": { "name": "زیرگذر حضرتی", "Detail": "H:\\پیشرفت پروژه ها و عکس\\pdf\\16.jpg" }, "geometry": { "type": "Point", "coordinates": [ 52.539979683334067, 29.605486856256359 ] } },
 { "type": "Feature", "properties": { "name": "تقاطع قائم رحمت", "Detail": "H:\\پیشرفت پروژه ها و عکس\\pdf\\17.jpg" }, "geometry": { "type": "Point", "coordinates": [ 52.528836553043426, 29.590961636255333 ] } },
 { "type": "Feature", "properties": { "name": "تقاطع میلاد", "Detail": "H:\\پیشرفت پروژه ها و عکس\\pdf\\10.jpg" }, "geometry": { "type": "Point", "coordinates": [ 52.464034719609344, 29.696895210970787 ] } },
-{ "type": "Feature", "properties": { "name": "پارک آبی", "Detail": "H:\\پیشرفت پروژه ها و عکس\\pdf\\1.jpg" }, "geometry": { "type": "Point", "coordinates": [ 52.433970836680352, 29.69870716018454 ] } },
+{ "type": "Feature", "properties": { "name": "پارک آبی", "Detail": "H:\\پیشرفت پروژه ها و عکس\\pdf\\1.jpg" }, "geometry": { "type": "Point", "coordinates": [ 52.436389135969684, 29.699163993658082 ] } },
 { "type": "Feature", "properties": { "name": "زیرگذر گویم", "Detail": "H:\\پیشرفت پروژه ها و عکس\\pdf\\18.jpg" }, "geometry": { "type": "Point", "coordinates": [ 52.395280448499001, 29.822422758192207 ] } },
 { "type": "Feature", "properties": { "name": "تقاطع سفیر-رحمت", "Detail": "H:\\پیشرفت پروژه ها و عکس\\pdf\\19.jpg" }, "geometry": { "type": "Point", "coordinates": [ 52.4988785229991, 29.600215955699547 ] } },
 { "type": "Feature", "properties": { "name": "بلوار شهید استوار", "Detail": "H:\\پیشرفت پروژه ها و عکس\\pdf\\20.jpg" }, "geometry": { "type": "Point", "coordinates": [ 52.623335829007871, 29.553203254741096 ] } },
